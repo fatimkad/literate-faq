@@ -1,0 +1,69 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    
+    z-index: 1;
+
+}
+
+.top {
+    
+    height: 20rem;
+    background-color: hsl(292, 42%, 14%);
+}
+.bottom {
+    height: 60rem;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.faq-container {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    background-color: white;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 5%;
+    
+}
+
+hr {
+    color: rgb(236, 233, 233);
+    opacity: 30%;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+
+}
+
+.plus-icon {
+    float: right;
+}
+
+.hidden-text {
+    display: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size:50px;
+    gap: 1rem;
+    color:  hsl(292, 42%, 14%);
+}
+
+h3 {
+    font-weight: 600;
+    color:  hsl(292, 42%, 14%);
+}
+.star-icon {
+    margin-right: 1.5rem;
+}
